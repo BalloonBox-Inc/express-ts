@@ -24,3 +24,11 @@ This is only used development (creating mock servers, etc). If need to use produ
 3. Run local server. This is run typescript compiler concurrently
 
    `npm run dev`
+
+## Folder structure
+
+1. `configs` - all the configs from env variables
+2. `db` - folder for database instances and migrations
+3. `public` - any static files and folders
+4. `services` - third party services (api, database, etc)
+5. `utils` - utilities and helpers
